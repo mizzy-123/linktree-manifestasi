@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #754EF9;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    gap: 1rem;
+}
+
+.my-logo {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 15rem;
+}
+
+.link-card {
+    display: flex;
+    background-color: #754EF9;
+    color: #fdfdfd;
+    padding: 1rem;
+    border: .2rem solid transparent;
+    box-shadow: 0 .2rem .5rem rgba(0,0,0,.2);
+    border-color: #fdfdfd;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    width: 80%;
+    max-width: 40rem;
+    justify-content: space-between;
+    align-items: center;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+
+.link-card:hover {
+    background-color: #fdfdfd;
+    color: #754EF9;
+    border-color: #754EF9;
+}
+
+.link-icon {
+    padding: .5rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #fdfdfd;
+    color: #754EF9;
+    border: .2rem solid transparent;
+    border-color: #754EF9;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
