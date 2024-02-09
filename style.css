@@ -77,3 +77,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.sub-text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
